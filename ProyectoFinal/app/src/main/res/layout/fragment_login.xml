@@ -50,13 +50,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Welcome to Notably!"
+                android:text="@string/welcome_to_notably2"
                 android:textColor="@color/white_light"
                 android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/email"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/logo"
-                app:layout_constraintBottom_toTopOf="@+id/email" />
+                app:layout_constraintTop_toBottomOf="@+id/logo" />
 
             <EditText
                 android:id="@+id/email"
@@ -66,7 +66,7 @@
                 android:background="@drawable/et_bg"
                 android:drawableEnd="@drawable/ic_baseline_email_24"
                 android:drawableTint="@color/white_light"
-                android:hint="Email address"
+                android:hint="@string/email_address2"
                 android:inputType="textEmailAddress"
                 android:padding="16dp"
                 android:textColor="@color/white_light"
@@ -84,7 +84,7 @@
                 android:background="@drawable/et_bg"
                 android:drawableEnd="@drawable/ic_baseline_eye_24"
                 android:drawableTint="@color/white_light"
-                android:hint="Password"
+                android:hint="@string/password2"
                 android:inputType="textPassword"
                 android:padding="16dp"
                 android:textColor="@color/white_light"
@@ -100,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/btn_bg"
-                android:text="Login Now"
+                android:text="@string/login_now2"
                 android:textAllCaps="false"
                 android:textColor="@color/white_light"
                 app:backgroundTint="@null"
@@ -114,11 +114,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="Forgot Password?"
+                android:text="@string/forgot_password2"
                 android:textColor="@color/white_light"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/guideline_right"
                 app:layout_constraintStart_toStartOf="@id/guideline_left"
-                app:layout_constraintTop_toBottomOf="@+id/login_btn" />
+                app:layout_constraintVertical_bias="0.5" />
 
 
             <View
@@ -137,7 +138,7 @@
                 android:id="@+id/or"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="or"
+                android:text="@string/or2"
                 android:textColor="@color/white_light"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="@+id/line1"
@@ -164,7 +165,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:padding="8dp"
-                android:text="Sign in with Google"
+                android:text="@string/sign_in_with_google2"
                 android:textColor="@color/white_light"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@id/footer_line"
@@ -185,7 +186,7 @@
                 android:id="@+id/sign_up"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Don't have an account? Sign Up"
+                android:text="@string/don_t_have_an_account_sign_up2"
                 android:textColor="@color/white_light"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

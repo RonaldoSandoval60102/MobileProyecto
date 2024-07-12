@@ -2,4 +2,25 @@
     <string name="app_name">ProyectoFinal</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type_your_title">Type your title</string>
+    <string name="type_something">Type something...</string>
+    <string name="done">Done</string>
+    <string name="no_notes_available">No Notes Available!!</string>
+    <string name="empty_note">Empty Note</string>
+    <string name="welcome_to_notably">Welcome to Notably!</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="login_now">Login Now</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or">or</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="welcome_to_notably2">Welcome to Notably!</string>
+    <string name="email_address2">Email address</string>
+    <string name="password2">Password</string>
+    <string name="login_now2">Login Now</string>
+    <string name="forgot_password2">Forgot Password?</string>
+    <string name="or2">or</string>
+    <string name="sign_in_with_google2">Sign in with Google</string>
+    <string name="don_t_have_an_account_sign_up2">Don\'t have an account? Sign Up</string>
 </resources>
